@@ -1,0 +1,281 @@
+
+.shop_background_image img{
+    width: 100%;
+}
+.content_main{
+    padding: 30px 90px;
+}
+.filter_container,
+.sort_container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.content_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.sort_container > img{
+    width: 10px;
+}
+.sorting_container{
+    display: flex;
+    gap: 30px;
+}
+.images{
+    border: 1px solid var(--dark_grey);
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+}
+.images1{
+    border: 1px solid var(--dark_grey);
+    display: flex;
+    padding: 5px;
+    background-color: var(--white);
+    cursor: pointer;
+}
+.sort_images{
+    display: flex;
+    justify-content: baseline;
+    cursor: pointer;
+}
+
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+    gap: 20px;
+}
+.heropage_links img{
+    width: 20px;
+}
+.heropage_links{
+    display: flex;
+    gap: 10px;
+}
+.heropage_links a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 19px;
+}
+#home_link{
+    color: var(--dark_grey);
+}
+.categories_list,
+.price_list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+.filter_list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+}
+.categories_list a{
+    text-decoration: none;
+    color: var(--black);
+}
+#living_room_page{
+    text-decoration: underline;
+    text-decoration-color: var(--black);
+}
+.categories_container{
+    border-radius: 4px;
+     width: 8px;
+     background-color: var(--white);
+     height: 260px;
+ }
+ .categories_level{
+     border-radius: 4px;
+     width: 8px;
+     height: 210px;
+     background-color: var(--grey);
+ }
+ .filter_category{
+    display: flex;
+    gap: 120px;
+ }
+.price_category{
+    display: flex;
+    gap: 75px;
+}
+.price_checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+input[type=checkbox] {
+    margin: 4px 0 0;
+    width: 20px;
+    height: 20px;
+    accent-color: var(--black);
+}
+.hero_content{
+    background-image: url(../images/shop_bg_image.svg);
+    background-size: cover;
+    height: 490px;
+    background-repeat: no-repeat;
+    
+}
+.living_room_category_list{
+    display: grid;
+    grid-template-columns:35% 35% 35%;
+    gap: 20px;
+    position: relative;
+}
+.shop_page_main{
+    display: flex;
+    justify-content: space-between;
+}
+.category_title{
+    display: flex;
+    justify-content: space-between;
+}
+.shop_items{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.loveseat_sofa_price,
+.luxury_sofa_price{
+    display: flex;
+    gap: 10px;
+}
+.loveseat_sofa_price del,
+.luxury_sofa_price del{
+    color: var(--grey);
+}
+.loveseat_sofa,
+.luxury_sofa,
+.stand_lamp,
+.drawer_unit,
+.beige_pillow,
+.table_lamp,
+.lamp,
+.basket,
+.tray_table{
+    line-height: 30px;
+}
+.loveseat_item_discount > h4,
+.luxury_item_discount > h4,
+.table_lamp_item_discount > h4,
+.drawer_item_discount > h4,
+.tray_table_item_discount>h4,
+.stand_lamp_item_discount>h4,
+.pillow_item_discount>h4,
+.lamp_item_discount>h4,
+.basket_item_discount>h4{
+    background-color: var(--white);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.loveseat_item_discount > h5,
+.luxury_item_discount > h5,
+.table_lamp_item_discount>h5,
+.drawer_item_discount > h5,
+.tray_table_item_discount>h5,
+.stand_lamp_item_discount>h5,
+.pillow_item_discount>h5,
+.lamp_item_discount>h5,
+.basket_item_discount>h5{
+    background-color: var(--green);
+    text-align: center;
+    border-radius: 4px;
+}
+.loveseat_item_discount,
+.luxury_item_discount,
+.table_lamp_item_discount,
+.drawer_item_discount,
+.tray_table_item_discount,
+.stand_lamp_item_discount,
+.pillow_item_discount,
+.lamp_item_discount,
+.basket_item_discount{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.wishlist_image{
+    width: 40px;
+    display: flex;
+}
+.loveseat_item_offer{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+.luxury_item_offer{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+}
+.table_lamp_item_offer{
+    position: absolute;
+    top: 2%;
+    left: 80%;
+}
+.drawer_item_discount{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+.tray_table_item_offer{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    display: flex;
+    gap: 130px;
+}
+.stand_lamp_item_offer{
+    position: absolute;
+    top: 35%;
+    left: 77%;
+}
+.pillow__item_offer{
+    position: absolute;
+    top: 70%;
+    left: 3%;
+}
+.lamp_item_offer{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+.basket_item_offer{
+    position: absolute;
+    top: 70%;
+    left: 78%;
+}
+.addcart_button button{
+    position: absolute;
+    background-color: var(--black);
+    color: var(--white);
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    left:41%;
+    top: 56%;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.show_more_button{
+    display: flex;
+    justify-content: center;
+}
+.show_more_button button{
+    padding: 5px 15px;
+    border-radius: 8px;
+    border: 1px solid var(--black);
+    cursor: pointer;
+}

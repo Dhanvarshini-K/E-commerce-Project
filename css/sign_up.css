@@ -1,0 +1,155 @@
+
+.signup_image img {
+    width:100%;
+    height: 570px;
+}
+.signup_page{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 10px;
+    width: 400px;
+}
+input[type=text],
+input[type=email],
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid var(--light_grey);
+    outline:none;
+}
+.signup_password_field{
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid var(--light_grey);
+    outline:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup_password_field input{
+    padding: 0;
+    border: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+#eye{
+    width: 4%;
+    height: 4%;
+}
+#user_password{
+    padding: 0 20px;
+}
+.signup_password_field,
+.signup_terms_of_use
+{
+    display: flex;
+    gap: 20px;
+}
+.signup_password_field img{
+    width: 16px;
+    cursor: pointer;
+}
+form button{
+    padding: 10px;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+form h3{
+    font-size: 30px;
+    font-weight: 550;  
+}
+span a{
+    color: var(--green);
+    text-decoration: none;
+}
+form p{
+    color: #6C7275;
+}
+.signup_terms_of_use span{
+    cursor: pointer;
+    color: var(--black);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+#error1,#error2,#error3,#error4{
+    color: var(--red);
+    font-size: 13px;
+}
+@media(max-width:840px){
+    .signup_terms_of_use p{
+        font-size: 12px;
+    }
+}
+@media(max-width:765px){
+    .signup_terms_of_use{
+        display: flex;
+        gap: 5px;
+    }
+}
+@media (max-width:740px){
+    .signup_page{
+        display: flex;
+        gap: 10px;
+    }
+    .signup_terms_of_use{
+        display: flex;
+        gap: 10px;
+    }
+    .signup_terms_of_use p{
+        font-size: 12px;
+    }
+}
+@media(max-width:726px){
+    .signup_terms_of_use p{
+        font-size: 11px;
+    }
+}
+@media(max-width:715px){
+    .signup_page{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .signup_terms_of_use p{
+        font-size: 14px;
+    }
+}
+@media(max-width:480px){
+    .signup_page{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+   form{
+    padding: 10px;
+   }
+   .sig p{
+    font-size: 12px;
+   }
+}
+@media(max-width:360px){
+    .signup_terms_of_use p{
+        font-size: 11px;
+    }
+}

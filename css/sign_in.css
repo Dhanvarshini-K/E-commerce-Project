@@ -1,0 +1,148 @@
+
+.signin_image img {
+    width:100%;
+    height: 570px;
+}
+.signin_page{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 10px;
+    width: 400px;
+    height: 300px;
+    fill: none;
+    background: transparent;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+ input[type=text],
+ input[type=password]{
+    width:100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    outline:none;
+    border-bottom: 1px solid var(--grey);
+    
+}
+.signin_password_field{
+    width:100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    outline:none;
+    border-bottom: 1px solid var(--grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signin_password_field input{
+    border: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+.signin_forgot_password,
+.signin_password_field{
+    display: flex;
+    gap: 80px;
+}
+.sign_in_rememberme{
+    display: flex;
+    gap: 10px;
+}
+.signin_password_field img{
+    width: 16px;
+    cursor: pointer;
+}
+form button{
+    padding: 10px;
+    background-color:var(--black);
+    color: var(--white);
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+form h3{
+    font-size: 30px;
+    font-weight: 550;  
+}
+span a{
+    color: var(--green);
+    text-decoration: none;
+}
+form p{
+    color: var(--grey);
+}
+form a,
+form span{
+    cursor: pointer;
+}
+#eye{
+    width: 8%;
+    height: 45%;
+}
+#user_password{
+    padding: 0 4px;
+}
+#error,#error1{
+    color: var(--red);
+    font-size: 13px;
+}
+
+@media(max-width:776px){
+    .sign_in_rememberme > p,
+    .signin_password_field > a > h5{
+        font-size: 14px;
+    }
+    .sign_in_rememberme{
+        display: flex;
+        gap: 5px;
+    }
+}
+@media (max-width:740px){
+    .signin_page{
+        display: flex;
+        gap: 10px;
+    }
+    .signin_password_field > a > h5{
+        font-size: 11px;
+    }
+}
+@media(max-width:715px){
+    .signin_page{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media(max-width:480px){
+    .signin_page{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+   form{
+    padding: 10px;
+   }
+}
+@media(max-width:345px){
+    .sign_in_rememberme{
+        display: flex;
+        gap: 5px;
+    }
+   .sign_in_rememberme > p,
+    .signin_password_field > a > h5{
+        font-size: 12px;
+    }
+}

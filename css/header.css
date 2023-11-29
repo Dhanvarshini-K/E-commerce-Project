@@ -1,0 +1,130 @@
+
+.header_main{
+    background-color: var(--alice_blue);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.header_icons{
+    display: flex;
+    gap: 30px;
+}
+.header_content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 0 450px;
+
+}
+.shop_now_link{
+    display: flex;
+    border-bottom: 1.5px solid var(--blue);
+  
+}
+.shop_now_link a{
+    color: var(--blue);
+    text-decoration: none;
+    display: flex;
+}
+.sub_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    cursor: pointer;
+}
+.sub_header > nav{
+    display: flex;
+    gap: 40px;
+}
+nav select,
+nav a{
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    color:#6C7275 ;
+    text-decoration: none;
+}
+/* nav b{
+color: var(--black);
+} */
+
+nav a:active{
+    color: black;
+}
+@media (min-width:300px) and (max-width:480px){
+    .header_content{
+        padding: 0 0 0 10px;
+    }
+    .shop_now_link{
+        display: none;
+    }
+    .header_main h4{
+        font-size: 11px;
+    }
+    .header_main img{
+        width: 20px;
+    }
+    .sub_header nav{
+        display: flex;
+        gap: 10px;
+        display: none;
+    }
+    .sub_header nav a{
+        font-size: 10px;
+    }
+    .header_icons img{
+        width: 30px;
+    }
+    #sub_header_icons{
+        display: none;
+    }
+    .sub_header>img{
+        width: 80px;
+    }
+    .sub_header{
+        display: flex;
+        padding: 10px 15px;
+        justify-content: space-between;
+    }
+    .header_icons img{
+        width: 30px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .header_icons{
+        display: flex;
+        align-items:baseline;
+        gap: 10px;
+    }
+    .header_content{
+        padding: 0 0 0 10px;
+    }
+    .sub_header > nav{
+        gap: 10px;
+    }
+    .sub_header > nav > a{
+        font-size: 14px;
+    }
+    .header_icons img{
+        width: 40px;
+    }
+    #sub_header_icons{
+        width: 20px;
+    }
+    .sub_header{
+        display: flex;
+        align-items:center;
+        gap: 10px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+     .header_content{
+            padding: 0 0 0 200px;
+        }
+        .section_header{
+            padding: 30px 50px;
+        }
+}

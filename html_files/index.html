@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="../css/sign_in.css"/>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="icon" href="../icons/Logo.svg">
+</head>
+<body>
+    <main class="signin_page">
+    <div class="signin_image">
+        <img src="../images/signin_images.svg" alt="signin_image">
+    </div>
+    <section>
+      
+        <form id="validateForm">
+            <h3>Sign In</h3> 
+            <p>Don't have an account yet?<span><a href="sign_up.html"> Sign Up</a></span></p>
+    
+                <div>
+            <input type="text" placeholder="Your username or email address" id="username_and_email" required/>
+            <p id="error"></p>
+            </div>
+          
+            <div class="signin_password_field">
+                <input type="password" placeholder="Password" id="user_password" required />
+                <img src="../icons/hide_password_icons.png" alt="password_icon" id="eye">
+               
+            </div>
+            <p id="error1"></p>
+           
+            <div class="signin_forgot_password">
+                <div class="sign_in_rememberme" id="rememberMeCheckbox" >
+                    <input type="checkbox" required>
+                    <p>Remember me</p>
+                </div>
+                <a><h5>Forgot password?</h5></a>
+            </div>
+            <button type="submit">Sign In</button>
+        </form>
+    </section>
+
+</main>
+
+<script src="../src/script.js"></script>
+<script src="../src/toggle.js"></script>
+
+</body>
+</html>

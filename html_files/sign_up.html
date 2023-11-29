@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/sign_up.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="icon" href="../icons/Logo.svg">
+    
+</head>
+<body>
+    <main class="signup_page">
+        <div class="signup_image">
+            <img src="../images/signin_images.svg" alt="signin_image">
+        </div>
+        <section>
+            <form id="signUpValidateForm">
+                <h3>Sign Up</h3>
+                <p>Already have an account?<span> <a href="index.html">Sign in</a></span></p>
+                <input type="text" placeholder="Your name" id="name" required/>
+                <p id="error1"></p>
+                <input type="text" placeholder="Username" id="username" required/>
+                <p id="error2"></p>
+                <input type="email" placeholder="Email address" id="email" required/>
+                <p id="error3"></p>
+                <div class="signup_password_field">
+                    <input type="password" placeholder="Password" id="user_password" required/>
+                    <img src="../icons/hide_password_icons.png" alt="hide_password_icon"  id="eye">
+                </div>
+                <p id="error4"></p>
+             
+                <div class="signup_terms_of_use">
+                        <input type="checkbox" required>
+                        <p>I agree with <span>Privacy Policy</span> and<span> Terms of Use</span></p>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    
+    </main>
+    <script src="../src/script.js"></script>
+    <script src="../src/toggle.js"></script>
+
+</body>
+</html>

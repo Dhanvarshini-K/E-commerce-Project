@@ -1,0 +1,267 @@
+.signup_letter > img{
+    width: 100%;
+}
+.email_address{
+    display: flex;
+    flex-direction: column;
+}
+.email_and_signup{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 160px;
+}
+.email_and_signup a,
+.article_list a{
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--black);
+}
+.empty_newsline{
+    width: 400px;
+    height: 1px;
+    background-color: var(--grey);
+}
+.newsletter_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 50px;
+    padding: 20px;
+}
+.newsletter_title{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter_title h2{
+    font-size: 14px;
+}
+.newsletter_content{
+    background-image: url(../images/newsletter_image.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.email img{
+    width: 15px;
+}
+.footer_main{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 80px 100px 32px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.footer_main  a{
+    color: white;
+    cursor: pointer;
+}
+.footer_quick_links,
+.contact_apps{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.shop_title,
+.navigation_links nav{
+    display: flex;
+    gap: 20px;
+    
+}
+.shop_title{
+    width:50%;
+}
+.navigation_links nav a{
+    display: flex;
+    gap: 10px;
+}
+.vertical_line{
+    width: 2px;
+    height: 20px;
+    background-color: var(--grey);
+    
+}
+.footer_emptyline{
+    width: 100%;
+    height: 1px;
+    background-color:var(--grey);
+}
+.privacy_policy{
+    display: flex;
+    gap: 5px;
+}
+.contact_apps a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.terms_and_condition,
+.apps{
+    display: flex;
+    gap: 20px;
+}
+.email input,
+.email_and_signup button{
+    border: none;
+    background-color: var(--athens_grey);
+    background: transparent;
+    outline: none;
+}
+
+@media (min-width:300px) and (max-width:480px){
+    .article_list{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .terms_and_condition a{
+        font-size: 6px;
+    }
+    .shop_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        gap: 20px;
+    }
+    .shop_title img{
+        width: 100px;
+    }
+    .vertical_line{
+        width: 30px;
+        height: 2px;   
+    }
+    .privacy_policy{
+       gap: 2px;
+    }
+    
+    .footer_quick_links,
+    .navigation_links > nav,
+    .terms_and_condition{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .navigation_links>nav>a{
+       font-size: 20px;
+    }
+    .shop_title p{
+        font-size: 16px;
+    }
+    .contact_apps{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+    }
+    .footer_main{
+        display: flex;
+        align-items: center;
+    }
+    .apps{
+        display: flex;
+       justify-content: center;
+    }
+    .contact_apps,
+    .privacy_policy{
+        display: flex;
+        gap: 20px;
+    }
+    .signup_letter{
+        background-image: none;
+        height: 0;
+    }
+    .signup_letter img{
+        width: 20px;
+      }
+      .newsletter_content{
+          background-color: var(--athens_grey);
+          padding: 20px;
+      }
+      .empty_newsline{
+        width: 290px;
+    }
+    .email_and_signup{
+        gap: 50px;
+    }
+  .newsletter_title{
+    font-size: 14px;
+  }
+}
+@media (min-width:481px) and (max-width:768px){
+.customer_details{
+        display: flex;
+        align-items:center;
+        gap: 10px;
+}
+.shop_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter_content{
+    right: 150px;
+    gap: 20px;
+}
+.email_and_signup{
+    display: flex;
+    gap: 0px;
+}
+
+.navigation_links nav{
+    display: flex;
+    gap: 22px;
+}
+.footer_quick_links,
+.contact_apps{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 20px;
+}
+.navigation_links > nav > a{
+    font-size: 16px;
+}
+.privacy_policy{
+    display: flex;
+    gap: 20px;  
+}
+.privacy_policy a{
+    font-size: 10px;
+}
+.shop_title p{
+    font-size: 15px;
+}
+.shop_title img{
+    width: 80px;
+}
+.vertical_line{
+    width: 30px;
+    height: 2px;   
+}
+.footer_main{
+padding: 20px;
+}
+.terms_and_condition{
+font-size: 12px;
+}
+}
+@media (min-width:769px) and (max-width:1024px){
+    .customer_service{
+        display: flex;
+        gap: 20px;
+    }
+    .footer_main{
+        padding: 80px 20px;
+    }
+    .privacy_policy{
+        gap: 40px;
+    }
+    .shop_title,
+    .contact_apps,
+    .navigation_links > nav a{
+      font-size: 15px;
+    }
+    .shop_title {
+        width: 45%;
+    }
+}
